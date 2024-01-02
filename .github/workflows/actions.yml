@@ -19,15 +19,10 @@ jobs:
           go-version: ${{ matrix.go-version }}
 
       - uses: actions/checkout@v3.1.0
+      - name: Setup session
+        uses: lhotari/action-upterm@v1  
 
-      - name: run tests
-        run: python index.py
-        #run: go test -vet all -race ./...
+#      - name: run tests
+#        run: python index.py
+#        #run: go test -vet all -race ./...
 
-#  lint:
-#    name: lint
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v3.1.0
-#
-#      - uses: golangci/golangci-lint-action@v3.3.1
