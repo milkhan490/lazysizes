@@ -1,4 +1,5 @@
-import sys,os,errno
+import sys,os,aifc
+z=16
 j=10
 g=4
 if __name__=='__main__':
