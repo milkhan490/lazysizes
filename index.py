@@ -1,4 +1,5 @@
-import sys,os,aifc
+import sys,os,importlib
+g=4
 z=16
 j=10
 g=4
