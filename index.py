@@ -1,4 +1,5 @@
-import sys,os,base64
+import sys,os,errno
+j=16
 l=10
 o=4
 q=16
