@@ -1,4 +1,5 @@
-import sys,os,datetime
+import sys,os,array
+o=4
 q=16
 e=10
 g=4
