@@ -1,4 +1,5 @@
-import sys,os,array
+import sys,os,base64
+l=10
 o=4
 q=16
 e=10
